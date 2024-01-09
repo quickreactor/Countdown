@@ -2,7 +2,7 @@
 const targetDate = new Date('2024-02-06T00:00:00Z').getTime();
 
 // Update the countdown every second
-const countdownInterval = setInterval(updateCountdown, 1);
+const countdownInterval = setInterval(updateCountdown, 10);
 
 function updateCountdown() {
   // Get the current date and time in milliseconds
